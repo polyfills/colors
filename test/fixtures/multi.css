@@ -1,0 +1,5 @@
+
+body {
+  font: color(red tint(50%)) 14px monospace;
+  font: color(red tint(50%)) color(red tint(50%)) color(red tint(50%));
+}

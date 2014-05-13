@@ -9,6 +9,10 @@ describe('CSS Colors', function () {
     test('rework')
   })
 
+  it('should work multiple colors declared', function () {
+    test('multi')
+  })
+
   it('should throw on unexpected ends', function () {
     assert.throws(function () {
       colors(fixture('unexpected-end'))

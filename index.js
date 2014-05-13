@@ -20,7 +20,7 @@ module.exports = function colors(css) {
     var ret = balanced('(', ')', string)
     if (!ret) throw new Error('unbalanced ()s at ' + string)
     var fn = 'color(' + ret.body + ')'
-    return color.convert(fn) + convert(ret.post)
+    return color.convert(fn) + ret.post
   }
 }
 
