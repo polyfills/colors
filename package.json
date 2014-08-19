@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": "polyfills/colors",
   "dependencies": {
-    "css-color-function": "0",
+    "css-color-function": "1",
     "balanced-match": "0"
   },
   "devDependencies": {
