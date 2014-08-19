@@ -1,7 +1,7 @@
 {
   "name": "css-colors",
   "description": "CSS Color functions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Jonathan Ong",
     "email": "me@jongleberry.com",
@@ -23,7 +23,9 @@
     "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
     "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
   },
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "css",
     "color",
