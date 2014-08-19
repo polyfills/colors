@@ -9,16 +9,25 @@
     "twitter": "https://twitter.com/jongleberry"
   },
   "license": "MIT",
-  "repository": "css-utils/colors",
+  "repository": "polyfills/colors",
   "dependencies": {
     "css-color-function": "0",
     "balanced-match": "0"
   },
   "devDependencies": {
-    "mocha": "^1.17",
-    "should": "^3.0.0"
+    "istanbul": "0",
+    "mocha": "1"
   },
   "scripts": {
-    "test": "mocha --reporter spec --require should --bail"
-  }
+    "test": "mocha --reporter spec",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
+  },
+  "files": ["index.js"],
+  "keywords": [
+    "css",
+    "color",
+    "colors",
+    "polyfill"
+  ]
 }
